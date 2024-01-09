@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+// @mixin center{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// @mixin between{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+// @mixin start{
+//     display: flex;
+//     justify-content:flex-start;
+//     align-items:flex-start;
+// }
+@import'nav';
+@import'sect1';
+// @import'';
+// @import'';
+// @import'';
+// @import'';
+// @import'';
+// @import'';
+// @import'';
