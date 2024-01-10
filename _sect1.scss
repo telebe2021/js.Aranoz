@@ -1,15 +1,23 @@
 .sect1{
     width: 100%;
-    height: 600px;
+    height: 800px;
+    // padding: 100px 0px;
+   
+    .ikili{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 .text{
-    width: 50%;
+    width: 40%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px;
+    align-items: start  ;
+    justify-content: start;
     h1{
- font-size: 60px;
+ font-size: 80px;
  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .btn_2 {
@@ -32,9 +40,11 @@
     }
 }
 .img{
-    width: 50%;
+    width: 60%;
     height: 100%;
     top: -100px;
+    padding: 200px 0px;
 
+}
 }
 }
