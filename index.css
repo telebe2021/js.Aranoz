@@ -314,7 +314,7 @@ nav .nav li a {
   padding: 150px 0px;
   z-index: 1;
 }
-.sect2 .sect21 .bottom .cart1 .cart11 .exp {
+.sect2 .sect21 .bottom .cart1 .cart11 .Now {
   z-index: 22;
   position: absolute;
   font-size: 25px;
@@ -329,7 +329,7 @@ nav .nav li a {
   align-items: center;
   gap: 5px;
 }
-.sect2 .sect21 .bottom .cart1 .cart11:hover .exp {
+.sect2 .sect21 .bottom .cart1 .cart11:hover .Now {
   opacity: 1;
 }
 .sect2 .sect21 .bottom .cart1 .cart11 .text {
@@ -370,7 +370,7 @@ nav .nav li a {
   background-color: #ecfdff;
   position: relative;
 }
-.sect2 .sect21 .bottom .cart1 .cart121 .exp {
+.sect2 .sect21 .bottom .cart1 .cart121 .Now {
   z-index: 22;
   position: absolute;
   font-size: 25px;
@@ -385,7 +385,7 @@ nav .nav li a {
   align-items: center;
   gap: 5px;
 }
-.sect2 .sect21 .bottom .cart1 .cart121:hover .exp {
+.sect2 .sect21 .bottom .cart1 .cart121:hover .Now {
   opacity: 1;
 }
 .sect2 .sect21 .bottom .cart1 .cart121 .text {
@@ -432,7 +432,7 @@ nav .nav li a {
   padding: 150px 0px;
   z-index: 1;
 }
-.sect2 .sect21 .bottom .cart12 .cart11 .exp {
+.sect2 .sect21 .bottom .cart12 .cart11 .Nov {
   position: absolute;
   font-size: 25px;
   font-weight: 600;
@@ -447,7 +447,7 @@ nav .nav li a {
   gap: 5px;
   z-index: 33332;
 }
-.sect2 .sect21 .bottom .cart12 .cart11:hover .exp {
+.sect2 .sect21 .bottom .cart12 .cart11:hover .Now {
   opacity: 1;
 }
 .sect2 .sect21 .bottom .cart12 .cart11 .text {
@@ -488,7 +488,7 @@ nav .nav li a {
   background-color: #ecfdff;
   position: relative;
 }
-.sect2 .sect21 .bottom .cart12 .cart121 .exp {
+.sect2 .sect21 .bottom .cart12 .cart121 .Now {
   position: absolute;
   font-size: 25px;
   font-weight: 600;
@@ -503,7 +503,7 @@ nav .nav li a {
   gap: 5px;
   z-index: 22;
 }
-.sect2 .sect21 .bottom .cart12 .cart121:hover .exp {
+.sect2 .sect21 .bottom .cart12 .cart121:hover .Now {
   opacity: 1;
 }
 .sect2 .sect21 .bottom .cart12 .cart121 .text {
@@ -635,4 +635,20 @@ nav .nav li a {
     bottom: 0;
     left: 120px;
   }
+}
+.sect3 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.sect3 .dortlu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sect3 .dortlu img {
+  width: 100%;
+  height: 50%;
 }/*# sourceMappingURL=index.css.map */
