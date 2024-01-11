@@ -1,0 +1,65 @@
+.sect4 {
+    width: 100%;
+
+    .div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    align-items: center;
+        background-color: rgb(163, 210, 240);
+
+        .img {
+            width: 50%;
+            height: 100%;
+            padding: 20px;
+        }
+
+        .text {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h2 {
+                font-size: 70px;
+            }
+
+            .dortlu {
+                height: 120px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                
+
+                div {
+                    border-left:1px solid;
+                    padding-left: 5px;
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    h3 {
+                        font-size: large;
+                    }
+                }
+            }
+                .inp {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                  button{
+                    height: 60px;
+                    width: 140px;
+                    font-size: large;
+                    color: #ffffff;
+                    background-color: orangered;
+                  }
+                }
+
+         
+        }
+    }
+}

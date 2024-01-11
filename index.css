@@ -432,7 +432,7 @@ nav .nav li a {
   padding: 150px 0px;
   z-index: 1;
 }
-.sect2 .sect21 .bottom .cart12 .cart11 .Nov {
+.sect2 .sect21 .bottom .cart12 .cart11 .Now {
   position: absolute;
   font-size: 25px;
   font-weight: 600;
@@ -638,7 +638,6 @@ nav .nav li a {
 }
 .sect3 {
   width: 100%;
-  height: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -651,4 +650,72 @@ nav .nav li a {
 .sect3 .dortlu img {
   width: 100%;
   height: 50%;
+}
+.sect3 .dortlu .text {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sect3 .dortlu .text h1 {
+  font-size: x-large;
+}
+.sect3 .dortlu .text h3 {
+  font-size: x-large;
+}
+
+.sect4 {
+  width: 100%;
+}
+.sect4 .div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(163, 210, 240);
+}
+.sect4 .div .img {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+.sect4 .div .text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sect4 .div .text h2 {
+  font-size: 70px;
+}
+.sect4 .div .text .dortlu {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.sect4 .div .text .dortlu div {
+  border-left: 1px solid;
+  padding-left: 5px;
+}
+.sect4 .div .text .dortlu div h1 {
+  font-size: 30px;
+}
+.sect4 .div .text .dortlu div h3 {
+  font-size: large;
+}
+.sect4 .div .text .inp {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sect4 .div .text .inp button {
+  height: 60px;
+  width: 140px;
+  font-size: large;
+  color: #ffffff;
+  background-color: orangered;
 }/*# sourceMappingURL=index.css.map */
